@@ -9,12 +9,12 @@ const Masthead: React.FC = () => {
         loop 
         muted 
         playsInline 
-        className="absolute w-full h-full object-cover"
+        className="z-0 absolute w-full h-full object-cover"
         >
         <source src="/assets/smoke.mp4" type="video/mp4; codecs=hvc1" />
         <source src="/assets/smoke.webm" type="video/webm; codecs=vp9" />
       </video>
-      <div className="flex-grow-0 pb-20 md:pb-10 transition-all duration-1000">
+      <div className="absolute top-0  flex-grow-0 pt-10 md:pt-10 transition-all duration-1000">
         <Image 
           src="/assets/joyousdevil.png" 
           width={128 / 3}
@@ -23,12 +23,20 @@ const Masthead: React.FC = () => {
 
         />
       </div>
-      <div className="p-12 font-bold z-10 text-stone-100 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4_)]">
-        <h1 className="mb-6 font-bold text-5x xl:text-6xl">
-          Landing Page
+      <div className="absolute bottom-0 flex-grow-0  md:pb-5 transition-all duration-1000 ">
+        <Image
+          src="/assets/scroll-down.png"
+          width={ 188 / 3 }
+          height={ 188 / 3 }
+          alt="arrow down" 
+        />
+      </div>
+      <div className="font-bold z-10 text-stone-100 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4_)] text-center">
+        <h1 className="mb-6 font-bold text-5xl xl:text-6xl">
+          Turnkey Solutions
         </h1>
-        <h2 className="mb-5 text-3xl xl:text-4xl tracking-tight">
-          Lorem, ipsum, subheader.
+        <h2 className="mb-5 text-4xl xl:text-5xl tracking-tight">
+          <span>App development, </span> <span>done right.</span>
         </h2>
       </div>
     </div>

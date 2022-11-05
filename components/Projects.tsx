@@ -1,9 +1,9 @@
 import React from 'react'
 
-const Projects = () => {
+const Projects: React.FC = () => {
   return (
-    <div>
-      <h1>Projects</h1>
+    <div className="min-h-screen flex flex-col items-center justify-center">
+      <section className={`flex flex-col py-20 text-3xl md:text-4xl`}>Projects</section>
     </div>
   )
 }
