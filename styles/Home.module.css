@@ -1,3 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*
 .container {
   padding: 0;
 }
@@ -127,3 +133,4 @@
     filter: invert(1);
   }
 }
+*/
