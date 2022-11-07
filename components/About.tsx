@@ -5,7 +5,7 @@ const About: React.FC = () => {
   return (
     <div className="bg-stone-100 min-h-screen flex flex-col items-center justify-center">
       <section className={`flex flex-col py-20 text-neutral-900 text-3xl md:text-4xl`}>
-        <h1 className="font-normal text-center">
+        <h1 className="pb-10 font-normal text-center">
           About
         </h1> 
         <div className="container mx-auto px-11">
@@ -21,37 +21,37 @@ const About: React.FC = () => {
             <Member
               id="vincent"
               name="Vincent"
-              socialId="@joyousdevil"
+              socialId="@vince_ntc"
               link="https://github.com/joyousdevil"
             />
             <Member
               id="john"
-              name="John"
-              socialId="@John"
+              name="Paolo"
+              socialId="@relikz"
               link="https://github.com/joyousdevil"
             />
             <Member
               id="jennifer"
-              name="Jennifer"
-              socialId="@jennifer"
+              name="Bot1"
+              socialId="@bot1"
               link="https://github.com/joyousdevil"
             />
             <Member
               id="linda"
-              name="Linda"
-              socialId="@Linda"
+              name="Bot2"
+              socialId="@bot2"
               link="https://github.com/joyousdevil"
             />
             <Member
               id="marcus"
-              name="Marcus"
-              socialId="@Marcus"
+              name="Angel"
+              socialId="@AceJenko"
               link="https://github.com/joyousdevil"
             />
             <Member
               id="naomi"
-              name="Naomi"
-              socialId="@Naomi"
+              name="Bot3"
+              socialId="@bot3"
               link="https://github.com/joyousdevil"
             />
           </div>

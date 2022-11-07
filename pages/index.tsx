@@ -1,12 +1,8 @@
 import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
-
 import Masthead from '../components/Masthead'
 import About from '../components/About'
+import Skills from '../components/Skills'
 import Staff from '../components/Staff'
-import Projects from '../components/Projects'
-
 
 export default function Home() {
   return (
@@ -19,8 +15,8 @@ export default function Home() {
 
       <Masthead />
       <About />
+      <Skills />
       <Staff />
-      <Projects />
     </div>
   )
 }

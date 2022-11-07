@@ -34,19 +34,17 @@ const Masthead: React.FC = () => {
         className="z-0 absolute w-full h-full object-cover"
         >
         <source src="/assets/winterfeels.mp4" type="video/mp4; codecs=hvc1" />
-        <source src="/assets/smoke.webm" type="video/webm; codecs=vp9" />
+        <source src="/assets/winterfeels.webm" type="video/webm; codecs=vp9" />
       </video>
-      <div className="absolute top-0 z-10 flex-grow-0 pt-10 md:pt-10 transition-all duration-1000">
-        <a href="https://github.com/joyousdevil" className="z-10">
+      <div className={`absolute top-0 z-10 flex-grow-0 pt-20 md:pt-10 transition-all duration-1000 ${ imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
         <Image 
           src="/assets/github-filled.svg" 
           width={50}
           height={50}
           alt="github repo"
         />
-        </a>
       </div>
-      <div className={`absolute bottom-0 flex-grow-0 pb-20 md:pb-5 transition-all duration-1000`}>
+      <div className={`absolute bottom-0 z-10 flex-grow-0 pb-20 md:pb-10 transition-all duration-1000 ${ imageLoaded ? 'opacity-100' : 'opacity-0 -translate-y-10'}`}>
         <Image
           src="/assets/scroll-down.png"
           width={ 188 / 3 }
