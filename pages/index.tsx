@@ -2,7 +2,7 @@ import Head from 'next/head'
 import Masthead from '../components/Masthead'
 import About from '../components/About'
 import Skills from '../components/Skills'
-import Staff from '../components/Staff'
+import Works from '../components/Works'
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
       <Masthead />
       <About />
       <Skills />
-      <Staff />
+      <Works />
     </div>
   )
 }
