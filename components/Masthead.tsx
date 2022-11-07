@@ -58,7 +58,7 @@ const Masthead: React.FC = () => {
           Joyous Devil Saloon
         </h1>
         <h2 className="mb-5 text-4xl xl:text-5xl tracking-tight">
-          <span>Web development, </span> <span>done right.</span>
+          <span>Rank boosting, </span> <span>done right.</span>
         </h2>
       </div>
     </div>

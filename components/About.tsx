@@ -10,8 +10,8 @@ const About: React.FC = () => {
         </h1> 
         <div className="container mx-auto px-11">
           <p className="leading-tight max-w-5xl mx-auto text-4xl lg:text-4xl tracking-tight">
-            <strong>We will help you ship better apps, faster. </strong>
-            Our team of expert engineers has created the best user experience in the most popular apps worldwide.
+            <strong>We will carry you to top 500. </strong>
+            Our team of professional players has created the best tactical experience in the most popular games worldwide.
           </p>
         </div>
         <div className="container mx-auto px-11 text-center mt-28">
