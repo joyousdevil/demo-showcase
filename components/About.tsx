@@ -3,8 +3,11 @@ import Member from './Member'
 
 const About: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center">
-      <section className={`flex flex-col py-20 text-3xl md:text-4xl`}>About
+    <div className="bg-stone-100 min-h-screen flex flex-col items-center justify-center">
+      <section className={`flex flex-col py-20 text-neutral-900 text-3xl md:text-4xl`}>
+        <h1 className="font-normal text-center">
+          About
+        </h1> 
         <div className="container mx-auto px-11">
           <p className="leading-tight max-w-5xl mx-auto text-4xl lg:text-4xl tracking-tight">
             <strong>We will help you ship better apps, faster. </strong>

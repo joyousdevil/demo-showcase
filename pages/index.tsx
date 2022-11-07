@@ -10,12 +10,13 @@ import Projects from '../components/Projects'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Landing Page</title>
         <meta name="Landing Page" content="Website introduction" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Masthead />
       <About />
       <Staff />
