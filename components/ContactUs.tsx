@@ -7,9 +7,9 @@ const ContactUs: React.FC = () => {
       <div className="flex-1 flex flex-col justify-center items-center pt-10 lg:pt-6">
       <div className="pb-5">
         <Image
-          src="/assets/contact.svg"
-          width={80}
-          height={80}
+          src="/assets/logo.png"
+          width={96}
+          height={96}
           alt="github logo" 
         />
       </div>

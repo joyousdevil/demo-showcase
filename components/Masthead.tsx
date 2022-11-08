@@ -38,10 +38,10 @@ const Masthead: React.FC = () => {
       </video>
       <div className={`absolute top-0 z-10 flex-grow-0 pt-20 md:pt-10 transition-all duration-1000 ${ imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
         <Image 
-          src="/assets/github-filled.svg" 
-          width={50}
-          height={50}
-          alt="github repo"
+          src="/assets/logo.png" 
+          width={96}
+          height={96}
+          alt="company logo"
         />
       </div>
       <div className={`absolute bottom-0 z-10 flex-grow-0 pb-20 md:pb-10 transition-all duration-1000 ${ imageLoaded ? 'opacity-100' : 'opacity-0 -translate-y-10'}`}>
