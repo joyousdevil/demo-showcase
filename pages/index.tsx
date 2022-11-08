@@ -9,7 +9,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Landing Page</title>
+        <title>PRiSMA</title>
         <meta name="Landing Page" content="Website introduction" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
