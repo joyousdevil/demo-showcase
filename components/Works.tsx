@@ -5,7 +5,7 @@ import { WorkBackground, WorkContainer, WorkLeft, WorkRight } from './Work'
 import Image from 'next/image'
 
 const Works = () => (
-<TileWrapper numOfPages={3}>
+<TileWrapper numOfPages={4}>
     <TileBackground>
         <WorkBackground />
     </TileBackground>
