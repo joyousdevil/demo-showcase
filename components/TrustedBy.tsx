@@ -6,8 +6,8 @@ const TrustedBy: React.FC = () => (
     <div className="flex-1"></div>
     <div className="flex flex-col justify-center items-center">
         <h3 className="text-xl mb-10 font-bold text-center">
-            <span className="whitespace-nowrap">Trusted by </span>
-            <span className="whitespace-nowrap">
+            <span>Trusted by </span>
+            <span>
                 some of the apps you use daily.
             </span>
         </h3>

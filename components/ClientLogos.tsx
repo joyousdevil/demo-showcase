@@ -5,7 +5,7 @@ import SliderContainer, { SliderItem } from "./Slider"
 
 const ClientLogos: React.FC = () => (
     <>
-        <SliderContainer className="" contentWidth={1290} initialOffsetX={0}>
+        <SliderContainer contentWidth={576} initialOffsetX={0}>
             <SliderItem width={96}>
              <Image
                 src="/assets/logos/amazon.png"
@@ -55,7 +55,7 @@ const ClientLogos: React.FC = () => (
             />
             </SliderItem>
             </SliderContainer>
-            <SliderContainer className="" contentWidth={1290} initialOffsetX={1}>
+            <SliderContainer contentWidth={672} initialOffsetX={2}>
             <SliderItem width={96}>
             <Image
                 src="/assets/logos/nasa.png"
