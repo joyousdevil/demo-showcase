@@ -18,7 +18,7 @@ const SizeObserver: React.FC = ({children}) => {
     useEffect(() => {
         handleResize()
         window.addEventListener('resize', handleResize, { passive: true})
-        return() => window.removeEventListener('resize', handleResize)
+        return () => window.removeEventListener('resize', handleResize)
     }, [handleResize])
     
     return (
