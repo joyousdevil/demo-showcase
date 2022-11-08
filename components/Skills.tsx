@@ -32,16 +32,16 @@ const Skills: React.FC = () => {
         <div className="leading-[1.15]">
           <div className="transition-opacity ease-in-out duration-500" style={{
             opacity: opacityForBlock(progress, 0)
-          }}>We know our games inside out.</div>
+          }}>We know our tools inside out.</div>
           <span className={`transition-opacity ease-in-out duration-500 inline-block after:content-['_']`} style={{
             opacity: opacityForBlock(progress, 1)
           }}>
-            Our team has helped 123 players get out of bronze, playing thousands of hours per week.
+            Our team has helped contributed 123 commits to React Native Core, powering thousands of apps worldwide.
           </span>
           <span className={`transition-opacity ease-in-out duration-500 inline-block after:content-['_']`} style={{
             opacity: opacityForBlock(progress, 2)
           }}>
-            We&apos;re top 10 in some of the most popular competitive games, with over <strong>1,234</strong> hours in each.
+            We&apos;re maintaining some of the most popular open-source projects, with over <strong>1,234</strong> downloads.
           </span>
         </div>
       </div>

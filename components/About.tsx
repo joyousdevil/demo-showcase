@@ -5,17 +5,21 @@ const About: React.FC = () => {
   return (
     <div className="bg-stone-100 min-h-screen flex flex-col items-center justify-center">
       <section className={`flex flex-col py-20 text-neutral-900 text-3xl md:text-4xl`}>
-        <h1 className="pb-10 font-normal text-center">
-          About
-        </h1> 
         <div className="container mx-auto px-11">
           <p className="leading-tight max-w-5xl mx-auto text-4xl lg:text-4xl tracking-tight">
-            <strong>We will carry you to top 500. </strong>
-            Our team of professional players has created the best tactical experience in the most popular games worldwide.
+            <strong>We will help you ship better apps, faster. </strong>
+            Our team of expert engineers has created the best user experiences in some of the most popular apps worldwide.
+          </p>
+          <p className="tracking-normal">
+            <div className="pt-10">Our services:</div>
+            <div><strong>- From Idea to AppStore</strong>: Full App Design and Development</div>
+            <div><strong>- Performance Optimization</strong>: Startup-time, Animation and overall smoothness optimization for existing apps</div>
+            <div><strong>- Custom Module Development</strong>: Development of specific UIs, animations, gestures or native modules for existing apps</div>
+            <div><strong>- Consulting</strong>: One-on-one consulting with a React Native, iOS or Android expert and bug fixing</div>
           </p>
         </div>
         <div className="container mx-auto px-11 text-center mt-28">
-          <h2>Our Team</h2>
+          <h2 className="font-black">Our Team</h2>
           <div>the &ldquo;spec-ops&ldquo;</div>
           <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 lg:gap-20">
             <Member

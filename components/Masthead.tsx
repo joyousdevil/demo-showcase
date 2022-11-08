@@ -55,10 +55,10 @@ const Masthead: React.FC = () => {
       </div>
       <div className="font-bold z-10 text-stone-100 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4_)] text-center">
         <h1 className="mb-6 font-bold text-5xl xl:text-6xl">
-          Joyous Devil Saloon
+          Margelo
         </h1>
-        <h2 className="mb-5 text-4xl xl:text-5xl tracking-tight">
-          <span>Rank boosting, </span> <span>done right.</span>
+        <h2 className="px-5 mb-5 text-4xl xl:text-5xl tracking-tight">
+          <span>App development, </span> <span>done right.</span>
         </h2>
       </div>
     </div>

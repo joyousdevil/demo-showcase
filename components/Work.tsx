@@ -3,7 +3,7 @@ import React from "react"
 import Link from "next/link"
 
 export const WorkContainer: React.FC = ({children}) => (
-    <div className="gride grid-cols-1 lg:grid-cols-2 w-full min-h-screen">
+    <div className="grid grid-cols-1 lg:grid-cols-2 w-full min-h-screen">
         {children}
     </div>
 )
