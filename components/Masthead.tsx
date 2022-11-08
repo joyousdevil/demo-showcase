@@ -60,8 +60,8 @@ const Masthead: React.FC = () => {
         <h2 className="px-5 mb-5 text-4xl xl:text-5xl tracking-tight">
           <span>App development, </span> <span>done right.</span>
         </h2>
-        <div className="tracking-tighter text-xs">
-          Website made by <strong>VIncent Camacho</strong>
+        <div className="tracking-normal text-sm">
+          Portfolio website made by <strong>Vincent Camacho</strong>
         </div>
       </div>
     </div>
