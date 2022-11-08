@@ -21,7 +21,6 @@ const Works = () => (
                 <WorkRight progress={progress}>
                     <Image
                         src="/assets/works/workexample0.png"
-                        layout="responsive"
                         width={840}
                         height={1620}
                         alt="ios16"
@@ -41,7 +40,6 @@ const Works = () => (
                 <WorkRight progress={progress}>
                     <Image
                         src="/assets/works/workexample1.png"
-                        layout="responsive"
                         width={840}
                         height={1620}
                         alt="navigation" 
@@ -61,7 +59,6 @@ const Works = () => (
                 <WorkRight progress={progress}>
                     <Image
                         src="/assets/works/workexample2.png"
-                        layout="responsive"
                         width={840}
                         height={1620}
                         alt="camera" 
@@ -81,7 +78,6 @@ const Works = () => (
                 <WorkRight progress={progress}>
                     <Image
                         src="/assets/works/workexample3.png"
-                        layout="responsive"
                         width={840}
                         height={1620}
                         alt="photos" 
