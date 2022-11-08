@@ -1,5 +1,6 @@
 import React from "react";
 import ClientLogos from "./ClientLogos";
+import Testimonials from "./Testimonials";
 
 const TrustedBy: React.FC = () => (
 <section className="bg-stone-100 min-h-screen flex flex-col justify-center gap-16 md:gap-32">
@@ -21,7 +22,7 @@ const TrustedBy: React.FC = () => (
                 </h3>
             </div>
         </div>
-    <div>Testimonials</div>
+        <Testimonials />
     <div className="flex-1 bg-neutral-900"></div>
 </section>
 )

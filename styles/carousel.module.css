@@ -1,0 +1,22 @@
+.viewport:global(.is-draggable) {
+    cursor: move;
+    cursor: grab;
+}
+
+.viewport:global(.is-draggin) {
+    cursor: grabbing;
+}
+
+.container {
+    user-select: none;
+}
+
+.slide {
+    flex: 0 0 auto;
+    max-width: min(70%, 620px);
+    opacity: 0.4s;
+}
+
+.slide:global(.active) {
+    opacity: 1
+}
