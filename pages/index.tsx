@@ -3,6 +3,7 @@ import Masthead from '../components/Masthead'
 import About from '../components/About'
 import Skills from '../components/Skills'
 import Works from '../components/Works'
+import TrustedBy from '../components/TrustedBy'
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <About />
       <Skills />
       <Works />
+      <TrustedBy />
     </div>
   )
 }
