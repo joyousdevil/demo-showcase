@@ -3,7 +3,8 @@ import Image from "next/image"
 
 const ContactUs: React.FC = () => {
   return (
-    <div className="bg-neutral-900 text-stone-100 flex flex-col justify-center items-center pt-10 min-h-screen">
+    <div className="bg-neutral-900 text-stone-100 flex flex-col justify-center pt-10 min-h-screen">
+      <div className="flex-1 flex flex-col justify-center items-center pt-10 lg:pt-6">
       <div className="pb-5">
         <Image
           src="/assets/contact.svg"
@@ -46,6 +47,7 @@ const ContactUs: React.FC = () => {
           </button>
         </div>
       </form>
+      </div>
     </div>
   )
 }

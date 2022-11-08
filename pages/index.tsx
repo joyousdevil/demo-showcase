@@ -5,6 +5,7 @@ import Skills from '../components/Skills'
 import Works from '../components/Works'
 import TrustedBy from '../components/TrustedBy'
 import ContactUs from '../components/ContactUs'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
       <Works />
       <TrustedBy />
       <ContactUs />
+      <Footer />
     </div>
   )
 }
