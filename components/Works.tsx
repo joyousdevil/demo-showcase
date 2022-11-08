@@ -31,7 +31,7 @@ const Works = () => (
         </Tile>
         <Tile 
         page={1} 
-        renderContent={({progress}) => (
+        renderContent={({ progress }) => (
             <WorkContainer>
                 <WorkLeft progress={progress}>
                     <div className="text-center">We redefined</div>
@@ -50,7 +50,7 @@ const Works = () => (
         </Tile>
         <Tile 
         page={2} 
-        renderContent={({progress}) => (
+        renderContent={({ progress }) => (
             <WorkContainer>
                 <WorkLeft progress={progress}>
                     <div className="text-center">We improved</div>
@@ -69,7 +69,7 @@ const Works = () => (
         </Tile>
          <Tile 
         page={3} 
-        renderContent={({progress}) => (
+        renderContent={({ progress }) => (
             <WorkContainer>
                 <WorkLeft progress={progress}>
                     <div className="text-center">We redid</div>
