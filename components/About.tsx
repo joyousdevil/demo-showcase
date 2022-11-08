@@ -10,8 +10,8 @@ const About: React.FC = () => {
             <strong>We will help you ship better apps, faster. </strong>
             Our team of expert engineers has created the best user experiences in some of the most popular apps worldwide.
           </p>
-          <div className="tracking-normal">
-            <div className="pt-10">Our services:</div>
+          <div className="leading-tight pt-20">
+            <div className="font-black">Our services:</div>
             <div><strong>- From Idea to AppStore</strong>: Full App Design and Development</div>
             <div><strong>- Performance Optimization</strong>: Startup-time, Animation and overall smoothness optimization for existing apps</div>
             <div><strong>- Custom Module Development</strong>: Development of specific UIs, animations, gestures or native modules for existing apps</div>
