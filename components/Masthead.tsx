@@ -55,11 +55,14 @@ const Masthead: React.FC = () => {
       </div>
       <div className="font-bold z-10 text-stone-100 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4_)] text-center">
         <h1 className="mb-6 font-bold text-5xl xl:text-6xl">
-          Margelo
+          PRiSMA
         </h1>
         <h2 className="px-5 mb-5 text-4xl xl:text-5xl tracking-tight">
           <span>App development, </span> <span>done right.</span>
         </h2>
+        <div className="tracking-tighter text-xs">
+          Website made by <strong>VIncent Camacho</strong>
+        </div>
       </div>
     </div>
   )
