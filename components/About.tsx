@@ -47,7 +47,7 @@ const About: React.FC = () => {
               link="https://github.com/joyousdevil"
             />
             <Member
-              id="Morpheus"
+              id="morpheus"
               name="Morpheus"
               socialId="@redpillVR"
               link="https://github.com/joyousdevil"
@@ -65,7 +65,7 @@ const About: React.FC = () => {
             link="https://github.com/joyousdevil" 
             />
             <Member
-            id="Kakashi"
+            id="kakashi"
             name="Kakashi"
             socialId="@SixthHokage"
             link="https://github.com/joyousdevil" 
