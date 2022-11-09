@@ -5,7 +5,7 @@ import { WorkBackground, WorkContainer, WorkLeft, WorkRight } from './Work'
 import Image from 'next/image'
 
 const Works = () => (
-<TileWrapper numOfPages={4}>
+<TileWrapper numOfPages={8}>
     <TileBackground>
         <WorkBackground />
     </TileBackground>
@@ -78,6 +78,82 @@ const Works = () => (
                 <WorkRight progress={progress}>
                     <Image
                         src="/assets/works/workexample3.png"
+                        width={840}
+                        height={1620}
+                        alt="photos" 
+                    />
+                </WorkRight>
+            </WorkContainer>
+       )}>
+        </Tile>
+        <Tile 
+        page={4} 
+        renderContent={({ progress }) => (
+            <WorkContainer>
+                <WorkLeft progress={progress}>
+                    <div className="text-center">We secured</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">PayPal's Crypto Banking</div>
+                </WorkLeft>
+                <WorkRight progress={progress}>
+                    <Image
+                        src="/assets/works/workexample7.png"
+                        width={840}
+                        height={1620}
+                        alt="photos" 
+                    />
+                </WorkRight>
+            </WorkContainer>
+       )}>
+        </Tile>
+        <Tile 
+        page={5} 
+        renderContent={({ progress }) => (
+            <WorkContainer>
+                <WorkLeft progress={progress}>
+                    <div className="text-center">We sped up</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">Instagram Stories</div>
+                </WorkLeft>
+                <WorkRight progress={progress}>
+                    <Image
+                        src="/assets/works/workexample4.png"
+                        width={840}
+                        height={1620}
+                        alt="photos" 
+                    />
+                </WorkRight>
+            </WorkContainer>
+       )}>
+        </Tile>
+        <Tile 
+        page={6} 
+        renderContent={({ progress }) => (
+            <WorkContainer>
+                <WorkLeft progress={progress}>
+                    <div className="text-center">We removed</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">YouTube Ads</div>
+                </WorkLeft>
+                <WorkRight progress={progress}>
+                    <Image
+                        src="/assets/works/workexample5.png"
+                        width={840}
+                        height={1620}
+                        alt="photos" 
+                    />
+                </WorkRight>
+            </WorkContainer>
+       )}>
+        </Tile>
+        <Tile 
+        page={7} 
+        renderContent={({ progress }) => (
+            <WorkContainer>
+                <WorkLeft progress={progress}>
+                    <div className="text-center">We deleted</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">TikTok</div>
+                </WorkLeft>
+                <WorkRight progress={progress}>
+                    <Image
+                        src="/assets/works/workexample6.png"
                         width={840}
                         height={1620}
                         alt="photos" 
