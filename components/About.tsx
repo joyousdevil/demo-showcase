@@ -23,40 +23,58 @@ const About: React.FC = () => {
           <div>the &ldquo;spec-ops&ldquo;</div>
           <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 lg:gap-20">
             <Member
-              id="vincent"
-              name="Vincent"
-              socialId="@vince_ntc"
+              id="johnwick"
+              name="John Wick"
+              socialId="@theboogey_man"
               link="https://github.com/joyousdevil"
             />
             <Member
-              id="john"
-              name="Paolo"
-              socialId="@relikz"
+              id="vader"
+              name="Darth Vader"
+              socialId="@skywalker78"
               link="https://github.com/joyousdevil"
             />
             <Member
-              id="jennifer"
-              name="Bot1"
-              socialId="@bot1"
+              id="hulk"
+              name="The Hulk"
+              socialId="@gammaisrad.BBanner"
               link="https://github.com/joyousdevil"
             />
             <Member
-              id="linda"
-              name="Bot2"
-              socialId="@bot2"
+              id="dumbledore"
+              name="Albus Dumbledore"
+              socialId="@AlbusDumbledore"
               link="https://github.com/joyousdevil"
             />
             <Member
-              id="marcus"
-              name="Angel"
-              socialId="@AceJenko"
+              id="Morpheus"
+              name="Morpheus"
+              socialId="@redpillVR"
               link="https://github.com/joyousdevil"
             />
             <Member
-              id="naomi"
-              name="Bot3"
-              socialId="@bot3"
+              id="itachi"
+              name="Uchiha Itachi"
+              socialId="@mangekyo.Sh"
               link="https://github.com/joyousdevil"
+            />
+            <Member
+            id="thor"
+            name="Thor Odinson"
+            socialId="@TheGodOfThunderOfficial"
+            link="https://github.com/joyousdevil" 
+            />
+            <Member
+            id="Kakashi"
+            name="Kakashi Hatake"
+            socialId="@SixthHokage"
+            link="https://github.com/joyousdevil" 
+            />
+            <Member
+            id="spiderman"
+            name="Spiderman"
+            socialId="@NYCwallcrawler"
+            link="https://github.com/joyousdevil"
             />
           </div>
         </div>
