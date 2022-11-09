@@ -39,8 +39,8 @@ const Masthead: React.FC = () => {
       <div className={`absolute top-0 z-10 flex-grow-0 pt-20 md:pt-10 transition-all duration-1000 ${ imageLoaded ? 'opacity-100' : 'opacity-0'}`}>
         <Image 
           src="/assets/logo.png" 
-          width={96}
-          height={96}
+          width={64}
+          height={64}
           alt="company logo"
         />
       </div>
