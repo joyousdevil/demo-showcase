@@ -1,8 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+https://vinceportfolio.vercel.app
+
+⚠ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Info
+
+__I created this portfolio website to learn more about making a more modern, fluid, and intuitive user experience.__ I would like to extend the greatest thanks to *Takuya Matsuyama* aka __[@craftzdog](https://github.com/craftzdog)__ for the video he posted on how to make a site such as this.
+
+Images provided by [Icons8](https://icons8.com/)
+
+Used in this project:
+- [NextJS](https://nextjs.org), the React framework for production. NextJS gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
+- [ReactJS](https://reactjs.org) a JavaScript library for building user interfaces
+- [Embla Carousel](https://www.embla-carousel.com), a lightweight carousel library with fluid motion and great swipe precision.
+
 
 ## Getting Started
 
-First, run the development server:
+Install dependencies:
+
+```bash
+npm i
+
+# or
+
+yarn
+```
+
+Run the development server:
 
 ```bash
 npm run dev

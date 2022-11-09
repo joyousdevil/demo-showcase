@@ -54,7 +54,7 @@ const Works = () => (
             <WorkContainer>
                 <WorkLeft progress={progress}>
                     <div className="text-center">We improved</div>
-                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">iOS Camera&apos;s Image Processing</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">iOS Image Processing</div>
                 </WorkLeft>
                 <WorkRight progress={progress}>
                     <Image

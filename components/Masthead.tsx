@@ -53,16 +53,19 @@ const Masthead: React.FC = () => {
           onLoad={handleImageLoaded} 
         />
       </div>
-      <div className="font-bold z-10 text-stone-100 drop-shadow-[0_5px_3px_rgba(0,0,0,0.4_)] text-center">
+      <div className="font-bold z-10 text-stone-100 drop-shadow-[0_5px_3px_rgba(0,0,0,0.5_)] text-center">
         <h1 className="mb-6 font-bold text-5xl xl:text-6xl">
           PRiSMA
         </h1>
         <h2 className="px-5 mb-5 text-4xl xl:text-5xl tracking-tight">
           <span>App development, </span> <span>done right.</span>
         </h2>
-        <div className="tracking-normal text-sm">
+        <div className="tracking-normal text-normal underline">
           Portfolio website made by <strong>Vincent Camacho</strong>
         </div>
+      </div>
+      <div className="absolute bottom-40 z-10 text-stone-100 text-center text-xs italic drop-shadow-[0_5px_3px_rgba(0,0,0,0.9_)]">
+        <strong>Disclaimer: </strong>This website is a mockup. None of the claims and testimonials on this website are true.
       </div>
     </div>
   )

@@ -31,6 +31,11 @@ const Testimonials: React.FC = () => (
             We needed consultants to help out with a huge project. PRiSMA found the bugs in twenty terabytes of code just under a few hours.
         </Review>
     </CarouselItem>
+    <CarouselItem index={5}>
+        <Review by="Samuel (Youtube)">
+            Ads are bad. No ads. Remove ads. Thank you PRiSMA.
+        </Review>
+    </CarouselItem>
 </Carousel>
 )
 
