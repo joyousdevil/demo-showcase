@@ -18,14 +18,14 @@ const About: React.FC = () => {
             <div><strong>- Consulting</strong>: One-on-one consulting with a React Native, iOS or Android expert and bug fixing</div>
           </div>
         </div>
-        <div className="container mx-auto px-11 text-center mt-28">
+        <div className="container mx-auto px-5 text-center mt-28">
           <h2 className="font-black">Our Team</h2>
           <div>the &ldquo;spec-ops&ldquo;</div>
-          <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 lg:gap-20">
+          <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 lg:gap-20">
             <Member
               id="johnwick"
               name="John Wick"
-              socialId="@theboogey_man"
+              socialId="@boogeymannn"
               link="https://github.com/joyousdevil"
             />
             <Member
@@ -37,13 +37,13 @@ const About: React.FC = () => {
             <Member
               id="hulk"
               name="The Hulk"
-              socialId="@gammaisrad.BBanner"
+              socialId="@dr.bbanner"
               link="https://github.com/joyousdevil"
             />
             <Member
               id="dumbledore"
-              name="Albus Dumbledore"
-              socialId="@AlbusDumbledore"
+              name="Albus D."
+              socialId="@A.Dumbledore"
               link="https://github.com/joyousdevil"
             />
             <Member
@@ -54,19 +54,19 @@ const About: React.FC = () => {
             />
             <Member
               id="itachi"
-              name="Uchiha Itachi"
+              name="Itachi"
               socialId="@mangekyo.Sh"
               link="https://github.com/joyousdevil"
             />
             <Member
             id="thor"
-            name="Thor Odinson"
-            socialId="@TheGodOfThunderOfficial"
+            name="Thor"
+            socialId="@GodOfThunder"
             link="https://github.com/joyousdevil" 
             />
             <Member
             id="Kakashi"
-            name="Kakashi Hatake"
+            name="Kakashi"
             socialId="@SixthHokage"
             link="https://github.com/joyousdevil" 
             />
