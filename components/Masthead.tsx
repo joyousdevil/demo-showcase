@@ -64,7 +64,7 @@ const Masthead: React.FC = () => {
           Portfolio website made by <strong>Vincent Camacho</strong>
         </div>
       </div>
-      <div className="absolute bottom-40 z-10 text-stone-100 text-center text-xs italic drop-shadow-[0_5px_3px_rgba(0,0,0,0.9_)]">
+      <div className="absolute bottom-40 z-10 text-stone-100 text-center text-xs lg:text-sm italic drop-shadow-[0_5px_3px_rgba(0,0,0,0.9_)]">
         <strong>Disclaimer: </strong>This website is a mockup. None of the claims and testimonials on this website are true.
       </div>
     </div>
