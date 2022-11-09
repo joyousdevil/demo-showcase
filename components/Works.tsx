@@ -54,7 +54,7 @@ const Works = () => (
             <WorkContainer>
                 <WorkLeft progress={progress}>
                     <div className="text-center">We improved</div>
-                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">iOS Image Processing</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">iOS Image Processing.</div>
                 </WorkLeft>
                 <WorkRight progress={progress}>
                     <Image
@@ -73,7 +73,7 @@ const Works = () => (
             <WorkContainer>
                 <WorkLeft progress={progress}>
                     <div className="text-center">We redid</div>
-                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">iOS Photos</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">iOS Photos.</div>
                 </WorkLeft>
                 <WorkRight progress={progress}>
                     <Image
@@ -92,7 +92,7 @@ const Works = () => (
             <WorkContainer>
                 <WorkLeft progress={progress}>
                     <div className="text-center">We secured</div>
-                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">PayPal&lsquo;s Crypto Banking</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">PayPal&lsquo;s Crypto Banking.</div>
                 </WorkLeft>
                 <WorkRight progress={progress}>
                     <Image
@@ -111,7 +111,7 @@ const Works = () => (
             <WorkContainer>
                 <WorkLeft progress={progress}>
                     <div className="text-center">We sped up</div>
-                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">Instagram Stories</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">Instagram Stories.</div>
                 </WorkLeft>
                 <WorkRight progress={progress}>
                     <Image
@@ -130,7 +130,7 @@ const Works = () => (
             <WorkContainer>
                 <WorkLeft progress={progress}>
                     <div className="text-center">We removed</div>
-                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">YouTube Ads</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">YouTube Ads.</div>
                 </WorkLeft>
                 <WorkRight progress={progress}>
                     <Image
@@ -149,7 +149,7 @@ const Works = () => (
             <WorkContainer>
                 <WorkLeft progress={progress}>
                     <div className="text-center">We deleted</div>
-                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">TikTok</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">TikTok.</div>
                 </WorkLeft>
                 <WorkRight progress={progress}>
                     <Image
