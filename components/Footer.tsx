@@ -10,8 +10,8 @@ const Footer: React.FC = () => (
       height={36}
       alt="github logo"
     />
-    <Link href="https://github.com/joyousdevil" target="_blank" rel="noreferrer">Github </Link>
-    <Link href="https://instagram.com/joyousdevil" target="_blank" rel="noreferrer">Instagram </Link>
+    <Link href="https://github.com/joyousdevil" target="_blank" rel="noreferrer">Github</Link>
+    <Link href="https://instagram.com/joyousdevil" target="_blank" rel="noreferrer">Instagram</Link>
     <Link href="https://nolansbabyshower.com" target="_blank" rel="noreferrer">Nolan</Link>
   </footer>
 )
