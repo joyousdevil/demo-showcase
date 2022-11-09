@@ -99,7 +99,7 @@ const Works = () => (
                         src="/assets/works/workexample7.png"
                         width={840}
                         height={1620}
-                        alt="photos" 
+                        alt="paypal" 
                     />
                 </WorkRight>
             </WorkContainer>
@@ -118,7 +118,7 @@ const Works = () => (
                         src="/assets/works/workexample4.png"
                         width={840}
                         height={1620}
-                        alt="photos" 
+                        alt="ig stories" 
                     />
                 </WorkRight>
             </WorkContainer>
@@ -137,7 +137,7 @@ const Works = () => (
                         src="/assets/works/workexample5.png"
                         width={840}
                         height={1620}
-                        alt="photos" 
+                        alt="youtube" 
                     />
                 </WorkRight>
             </WorkContainer>
@@ -156,7 +156,7 @@ const Works = () => (
                         src="/assets/works/workexample6.png"
                         width={840}
                         height={1620}
-                        alt="photos" 
+                        alt="tiktok" 
                     />
                 </WorkRight>
             </WorkContainer>
