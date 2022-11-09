@@ -76,6 +76,24 @@ const About: React.FC = () => {
             socialId="@NYCwallcrawler"
             link="https://github.com/joyousdevil"
             />
+            <Member
+            id="wolverine"
+            name="Logan"
+            socialId="@xwolverine"
+            link="https://github.com/joyousdevil" 
+            />
+            <Member
+            id="thanos"
+            name="Thanos"
+            socialId="@infinitygemz"
+            link="https://github.com/joyousdevil"
+            />
+            <Member
+            id="ironman"
+            name="Ironman"
+            socialId="@tonystark"
+            link="https://github.com/joyousdevil"
+            />
           </div>
         </div>
       </section>
