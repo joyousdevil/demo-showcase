@@ -92,7 +92,7 @@ const Works = () => (
             <WorkContainer>
                 <WorkLeft progress={progress}>
                     <div className="text-center">We secured</div>
-                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">PayPal's Crypto Banking</div>
+                    <div className="text-center text-4xl md:text-5xl font-semibold tracking-tight">PayPal&lsquo;s Crypto Banking</div>
                 </WorkLeft>
                 <WorkRight progress={progress}>
                     <Image
