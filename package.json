@@ -2,6 +2,12 @@
   "name": "demo-showcase",
   "version": "0.1.0",
   "private": true,
+  "license": "MIT",
+  "author": {
+    "name": "Vincent Camacho",
+    "email": "frankeli.vincent.camacho@gmail.com",
+    "url": "https://github.com/joyousdevil"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",

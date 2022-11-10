@@ -44,7 +44,7 @@ const Masthead: React.FC = () => {
           alt="company logo"
         />
       </div>
-      <div className={`absolute bottom-0 z-10 flex-grow-0 pb-20 md:pb-10 transition-all duration-1000 ${ imageLoaded ? 'opacity-100' : 'opacity-0 -translate-y-10'}`}>
+      <div className={`absolute bottom-0 z-10 flex-grow-0 pb-20 md:pb-10 transition-all duration-1000 motion-safe:animate-bounce ${ imageLoaded ? 'opacity-100' : 'opacity-0 -translate-y-10'}`}>
         <Image
           src="/assets/scroll-down.png"
           width={ 188 / 3 }
