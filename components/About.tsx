@@ -21,7 +21,7 @@ const About: React.FC = () => {
         <div className="container mx-auto px-5 text-center mt-28">
           <h2 className="font-black">Our Team</h2>
           <div>the &ldquo;spec-ops&ldquo;</div>
-          <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-10 lg:gap-20">
+          <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 gap-10 lg:gap-20">
             <Member
               id="johnwick"
               name="John Wick"
@@ -43,13 +43,13 @@ const About: React.FC = () => {
             <Member
               id="dumbledore"
               name="Albus D."
-              socialId="@A.Dumbledore"
+              socialId="@head_master"
               link="https://github.com/joyousdevil"
             />
             <Member
               id="morpheus"
               name="Morpheus"
-              socialId="@redpillVR"
+              socialId="@thredpill"
               link="https://github.com/joyousdevil"
             />
             <Member
@@ -91,7 +91,7 @@ const About: React.FC = () => {
             <Member
             id="ironman"
             name="Ironman"
-            socialId="@tonystark"
+            socialId="@realtonystark"
             link="https://github.com/joyousdevil"
             />
           </div>

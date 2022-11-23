@@ -54,7 +54,7 @@ const Masthead: React.FC = () => {
         />
       </div>
       <div className="font-bold z-10 text-stone-100 drop-shadow-[0_5px_3px_rgba(0,0,0,0.5_)] text-center">
-        <h1 className="mb-6 font-bold text-5xl xl:text-6xl">
+        <h1 className="mb-6 font-bold text-5xl xl:text-6xl tracking-widest">
           PRiSMA
         </h1>
         <h2 className="px-5 mb-5 text-4xl xl:text-5xl tracking-tight">
@@ -64,7 +64,7 @@ const Masthead: React.FC = () => {
           Portfolio website made by <strong>Vincent Camacho</strong>
         </div>
       </div>
-      <div className="absolute bottom-40 z-10 text-stone-100 text-center text-xs lg:text-sm italic drop-shadow-[0_5px_3px_rgba(0,0,0,0.9_)]">
+      <div className="absolute bottom-52 z-10 text-stone-100 text-center text-xs lg:text-sm italic drop-shadow-[0_5px_3px_rgba(0,0,0,0.9_)]">
         <strong>Disclaimer: </strong>This website is a mockup. None of the claims and testimonials on this website are true.
       </div>
     </div>
