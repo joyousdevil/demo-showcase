@@ -54,13 +54,13 @@ const Masthead: React.FC = () => {
         />
       </div>
       <div className="font-bold z-10 text-stone-100 drop-shadow-[0_5px_3px_rgba(0,0,0,0.5_)] text-center">
-        <h1 className="mb-6 font-bold text-5xl xl:text-6xl tracking-widest">
-          PRiSMA
+        <h1 className="mb-6 font-bold text-5xl xl:text-6xl tracking-wide">
+          prisma.
         </h1>
-        <h2 className="px-5 mb-5 text-4xl xl:text-5xl tracking-tight">
+        <h2 className="px-5 mb-5 text-3xl xl:text-4xl tracking-tight">
           <span>App development, </span> <span>done right.</span>
         </h2>
-        <div className="tracking-normal text-normal underline">
+        <div className="tracking-normal text-normal opacity-50">
           Portfolio website made by <strong>Vincent Camacho</strong>
         </div>
       </div>
