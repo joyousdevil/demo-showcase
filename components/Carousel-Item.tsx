@@ -1,4 +1,3 @@
-// @ts-nocheck
 import React, { useContext, useCallback } from 'react';
 import { CarouselContext } from './Carousel';
 import styles from '../styles/carousel.module.css';
